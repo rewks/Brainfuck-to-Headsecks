@@ -33,26 +33,32 @@ optional arguments:
 All encoding examples use a source file containing a basic Hello World! program. Encoding Brainfuck to Headsecks can be done like so:  
 `./bf2hs.py -e --trigram bf_HelloWorld.txt`. Example outputs are shown below.
 
-**trigram**  
+**--trigram**  
 >☰☰☰☰☰☰☰☰☶☳☰☰☰☰☶☳☰☰☳☰☰☰☳☰☰☰☳☰☲☲☲☲☱☷☳☰☳☰☳☱☳☳☰☶☲☷☲☱☷☳☳☴☳☱☱☱☴☰☰☰☰☰☰☰☴☴☰☰☰☴☳☳☴☲☱☴☲☴☰☰☰☴☱☱☱☱☱☱☴☱☱☱☱☱☱☱☱☴☳☳☰☴☳☰☰☴
 
-**chess**  
+**--chess**  
 >♘♘♘♘♘♘♘♘♖♛♘♘♘♘♞♛♘♘♛♘♘♘♛♘♘♘♛♘♚♚♚♚♙♗♛♘♛♘♛♙♛♛♘♖♚♗♚♙♟♛♛♔♛♙♙♙♜♘♘♘♘♘♘♘♜♔♘♘♘♜♛♛♔♚♙♜♚♔♘♘♘♔♙♙♙♙♙♙♔♙♙♙♙♙♙♙♙♜♛♛♘♔♛♘♘♔
 
-**chinese**  
+**--chinese**  
 >牰祘駠无茀劈鏸興鉞揓樸锸曘泰抆輳搈嬰笛梨蒸忠耻瞸枈酀晛屠攚毺粚轪燉驗經碘菣司褣襙諓蘣筐圾节鳿灚姙淏磻癛崔繃暹蠁穹资塰預馨篨陈樈筸婜腄驰噸腀惬酃謓暼岺妑伜咚丼激贈婀阔歉菁籩歱蔹篡梼舑镁滙呙玱炑穑雹佴舋臓恰捼垃鰨氠榄
 
-**cyrillic**  
+**--cyrillic**  
 >рААиаШиШЖГииИАжлиШГРРрлаААГРкТТвЩплАЫИЫЙЫуИцвЧкЙпГГФГБСбдШАриШШИмЬаАРДЫЫфЪЩдТдиРрдсЙБЙЙБФсСйСБйЩЙДуГидуАШД
 
-**arabic**  
+**--arabic**  
 >ﭰﭸﭸﮘﮘﮈﮈﭐﭖﭓﭨﮈﭐﭨﮖﭻﭨﭐﮋﭐﮈﭠﮛﭘﮀﮐﭓﮘﭒﮒﭒﭪﭩﮇﭻﮐﭓﭰﮋﭑﭓﭳﭸﭖﭺﭟﭒﮙﮏﭛﭫﭬﭓﭹﭡﭱﮄﭐﭐﭸﭰﮘﭸﭠﭼﮄﭸﭐﮈﮜﭳﭫﮄﮒﭡﭤﮚﭴﭨﭸﮘﮌﭑﮁﭑﭑﭹﭩﭴﭑﭩﭩﭡﮁﮁﭙﭑﭤﭫﭳﭐﭴﭛﮀﮈﭜ
 
-**range** (0x2625-0x262C)  
+**--range** (0x2625-0x262C)  
 >☪☪☪☪☪☪☪☪☨☥☪☪☪☪☨☥☪☪☥☪☪☪☥☪☪☪☥☪☬☬☬☬☫☩☥☪☥☪☥☫☥☥☪☨☬☩☬☫☩☥☥☦☥☫☫☫☦☪☪☪☪☪☪☪☦☦☪☪☪☦☥☥☦☬☫☦☬☦☪☪☪☦☫☫☫☫☫☫☦☫☫☫☫☫☫☫☫☦☥☥☪☦☥☪☪☦
 
-**random** (uses the full range 0x0000 to 0x10FFFF of unicode characters, will likely result in many unprintable but still valid sequences)  
-𴅰򥕈󈾈󨝈󗒠𝛠񙪐󁡮薛⹠񓢸񚪘񥫰󣑦񻛋򜤈򻋸񣕳񪻐񝠘򑍈𲋻󂭀󺰨񅵐󟶛𚒐򘇢񼕒򅫲򑺪󗃑󓌏󬺣ᐘ𛝫𤟈𖛳𪰁񧟻𗐛򀎠󸤶񢍲񭼟󞹊򤁙鹧𘟫󳖓񄽼􋥛󾙱󢁉𵋡󺼼򟎸𫧐𽶐𳛈󁠀埀𱨰򖡜󧬄󀘸󥁈𙶘񗭼𽴓𪳣񛓬򜐚򞖁􀯌𱴊󌌌𛚘𕫨𖑈茌񟣡󢓑𐵑𼌡𥴹󇢩󨱄򻓉􎷱񉭙􌚁󨸹񥟑󋞙󨅩򺴄򔆓񄩋񰆨򥿤󙥻򤆈񠄸򹟼
+**--random** (uses the full range 0x0000 to 0x10FFFF of unicode characters, will likely result in many unprintable but still valid sequences)  
+>𴅰򥕈󈾈󨝈󗒠𝛠񙪐󁡮薛⹠񓢸񚪘񥫰󣑦񻛋򜤈򻋸񣕳񪻐񝠘򑍈𲋻󂭀󺰨񅵐󟶛𚒐򘇢񼕒򅫲򑺪󗃑󓌏󬺣ᐘ𛝫𤟈𖛳𪰁񧟻𗐛򀎠󸤶񢍲񭼟󞹊򤁙鹧𘟫󳖓񄽼􋥛󾙱󢁉𵋡󺼼򟎸𫧐𽶐𳛈󁠀埀𱨰򖡜󧬄󀘸󥁈𙶘񗭼𽴓𪳣񛓬򜐚򞖁􀯌𱴊󌌌𛚘𕫨𖑈茌񟣡󢓑𐵑𼌡𥴹󇢩󨱄򻓉􎷱񉭙􌚁󨸹񥟑󋞙󨅩򺴄򔆓񄩋񰆨򥿤󙥻򤆈񠄸򹟼
+
+Decoding is rather simpler:  
+```
+./bf2hs.py -d trigram_source.txt
+>++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.++++.------.--------.>>+.>++.
+```
 
 ## Warning
 Ranges 0xD800-0xDB7F and 0xDC00-0xDFFF are reserved for [Surrogates](https://en.wikipedia.org/wiki/Universal_Character_Set_characters#Surrogates) and ruin everything in this current implementation. Basic measures have been taken to avoid using them in the *--random* encoding but if you specify a custom range consisting of nothing but surrogates you're going to have a bad time. Adding input validation for this is on the to-do list, or you can do it yourself.
