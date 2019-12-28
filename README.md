@@ -57,7 +57,7 @@ All encoding examples use a source file containing a basic Hello World! program.
 Decoding is rather simpler:  
 ```
 ./bf2hs.py -d trigram_source.txt
-++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.++++.------.--------.>>+.>++.
+++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
 ```
 
 ## Warning
