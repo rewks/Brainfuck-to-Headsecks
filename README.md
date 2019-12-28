@@ -48,7 +48,7 @@ All encoding examples use a source file containing a basic Hello World! program.
 **--arabic**  
 >ﭰﭸﭸﮘﮘﮈﮈﭐﭖﭓﭨﮈﭐﭨﮖﭻﭨﭐﮋﭐﮈﭠﮛﭘﮀﮐﭓﮘﭒﮒﭒﭪﭩﮇﭻﮐﭓﭰﮋﭑﭓﭳﭸﭖﭺﭟﭒﮙﮏﭛﭫﭬﭓﭹﭡﭱﮄﭐﭐﭸﭰﮘﭸﭠﭼﮄﭸﭐﮈﮜﭳﭫﮄﮒﭡﭤﮚﭴﭨﭸﮘﮌﭑﮁﭑﭑﭹﭩﭴﭑﭩﭩﭡﮁﮁﭙﭑﭤﭫﭳﭐﭴﭛﮀﮈﭜ
 
-**--range** (0x2625-0x262C)  
+**--range** '0x2625-0x262C'  
 >☪☪☪☪☪☪☪☪☨☥☪☪☪☪☨☥☪☪☥☪☪☪☥☪☪☪☥☪☬☬☬☬☫☩☥☪☥☪☥☫☥☥☪☨☬☩☬☫☩☥☥☦☥☫☫☫☦☪☪☪☪☪☪☪☦☦☪☪☪☦☥☥☦☬☫☦☬☦☪☪☪☦☫☫☫☫☫☫☦☫☫☫☫☫☫☫☫☦☥☥☪☦☥☪☪☦
 
 **--random** (uses the full range 0x0000 to 0x10FFFF of unicode characters, will likely result in many unprintable but still valid sequences)  
